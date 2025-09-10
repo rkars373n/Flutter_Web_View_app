@@ -3,11 +3,11 @@ android {
     namespace "com.example.flutter_webview_fotmob"
     compileSdkVersion 33
 
-    defaultConfig {
-        applicationId "com.example.flutter_webview_fotmob"
-        minSdkVersion 19
-        targetSdkVersion 33
-        versionCode 1
-        versionName "1.0.0"
-    }
+  defaultConfig {
+    applicationId "com.example.flutter_webview_fotmob"
+    minSdkVersion 19
+    targetSdkVersion 33
+    multiDexEnabled true
+}
+
 }
