@@ -1,21 +1,26 @@
 name: flutter_webview_fotmob
 description: Flutter WebView App (Fotmob)
-publish_to: "none"
+publish_to: "none" # This is a private project
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.7.2
+  sdk: ">=3.7.2 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  webview_flutter: ^4.8.0
   cupertino_icons: ^1.0.8
+  webview_flutter: ^4.8.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^6.0.0   # 5.0.0 → 6.0.0
+  flutter_lints: ^6.0.0  # Updated to latest recommended lint version
+
+# Flutter-specific settings
+flutter:
+  uses-material-design: true
+
 
 
 
